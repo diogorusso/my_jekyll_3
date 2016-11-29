@@ -1,0 +1,20 @@
+{% for post in site.data.posts_info %}
+{% for media in site.data.media %}
+{% if post.page_id == page.post-id %}
+{% if media.page_id == page.post-id %}
+{% if media.type == "thumb" %}
+{% if post.challenge != %}
+<div class="card">
+  	<div class="media">
+    	{% include grids/cards/card_post_image.html %}
+  	</div>
+  	<div class="content">
+    	<p>{{ post.title}}</p>
+  	</div>
+</div><!-- intro card -->
+{% endif %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}

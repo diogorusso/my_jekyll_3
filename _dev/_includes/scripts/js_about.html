@@ -1,0 +1,20 @@
+<script type="text/javascript">
+	function sticky_bar() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#sticky-anchor').offset().top;
+    if (window_top > div_top+175) {
+        $('#process-bar-top').removeClass('hidden');
+        $('#process-bar-top').addClass('stick');
+        $('#sticky-anchor').height($('#process-bar').outerHeight());
+    } else {
+        $('#process-bar-top').addClass('hidden');
+        $('#process-bar-top').removeClass('stick');
+        $('#sticky-anchor').height(0);
+    }
+}
+
+$(function() {
+    $(window).scroll(sticky_bar);
+    sticky_bar();
+});
+</script>

@@ -1,0 +1,18 @@
+---
+layout: default
+type: page-fullpage
+---
+
+{% if page.auto-scroll == true %}
+<div id="fullpage-scroll">
+{% else %}
+<div id="fullpage-noscroll">
+{% endif %}
+    {{ content }}
+</div>
+
+{% include base/footer.html %}
+
+
+
+

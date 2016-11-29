@@ -1,0 +1,21 @@
+---
+layout: page-sidebar
+auto-scroll: false
+txt-color: dark
+---
+
+
+{% assign featured-cover-path = "/work" %}
+{% assign featured-cover-max-size =  1826 %}
+{% assign breakpoints = "1826|1511|1118|795|480" | split: "|" %}<!-- responsive imgs -->
+
+<div class="small-12 columns">   
+    <ul class="grid small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+        {% for post in site.posts %}
+        <li itemscope itemtype="http://schema.org/CreativeWork" typeof="doap:Project">
+            {% include cards/card-posts.html %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+

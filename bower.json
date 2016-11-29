@@ -1,0 +1,34 @@
+{
+  "name": "hello_diogo_russo",
+  "description": "diogo russo landpage - say hello",
+  "main": "index.html",
+  "authors": [
+    "diogo russo"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "diogo",
+    "russo",
+    "landpage"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "normalize.css#~3.0.3",
+    "foundation": "~5.5.3",
+    "jquery.easing": "~1.3.1",
+    "fullpage.js": "^2.8.1",
+    "photoswipe": "~4.1.1",
+    "sass-burger": "~1.3.0",
+    "isotope": "^2.2.2",
+    "imagesloaded": "^4.1.0",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}

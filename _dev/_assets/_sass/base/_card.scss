@@ -1,0 +1,151 @@
+$grayscale:100%;
+$color:0;
+$no-blur:0;
+$blur:100%;
+$saturation:100%;
+$no-saturation:0;
+
+
+.card-shadow {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+
+.card-radius {
+    border-radius: 1rem;;
+}
+
+
+.card-container {
+    padding: 0.5rem  1.5rem;
+}
+
+.card-media {
+    text-align: center;
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    -webkit-filter: grayscale($grayscale) blur($no-blur) saturate($saturation);
+    filter: grayscale($grayscale) blur($no-blur) saturate($saturation);
+
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+
+    img{
+      width: 100%
+    }
+
+}
+
+.card-media-title{
+     display: block;
+    position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      background: rgba($theme-dark-color, .05 );
+}
+
+.card-media:hover {
+
+-webkit-filter: grayscale($color) blur($no-blur) saturate($saturation);
+filter: grayscale($color) blur($no-blur) saturate($saturation);
+}
+
+
+
+.card-title {
+    display: block;
+    font-family: $work-card-h4-font;
+    font-size: $work-card-h4-lg;
+    color: $work-card-h4-txt;
+
+}
+
+
+.card-description {
+    display: block;
+
+}
+
+
+.card-tags {
+    display: block;
+}
+
+.card-tag {
+    border-radius:1rem;
+    border:solid 0.1rem;
+    padding: 0.2rem 0.5rem;
+}
+
+
+.card-author {
+    display: block;
+
+}
+
+.card-callout {
+      padding: 1rem;
+      background: rgba($theme-dark-color, .05 );
+
+}
+
+.card {
+  overflow: hidden;
+  margin: 0.5rem;
+
+  .content {
+    padding: 1.5rem;
+    }
+
+  /*h4{
+    font-family: $work-card-h4-font;
+    font-size: $work-card-h4-lg;
+    color: $work-card-h4-txt;
+  }
+
+  p {
+    font-size: $work-card-p-lg;
+    color: $work-card-p-txt;
+    font-weight: 200;
+    margin-bottom:0;
+    line-height: 1.5rem;
+  }
+
+  @media #{$medium-only} {
+    p{
+      font-size: $work-card-p-sm;
+    }
+    
+  }*/
+
+  .media {
+    text-align: center;
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    -webkit-filter: grayscale($grayscale) blur($no-blur) saturate($saturation);
+    filter: grayscale($grayscale) blur($no-blur) saturate($saturation);
+
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+    
+  }
+
+  .media:hover {
+   
+    -webkit-filter: grayscale($color) blur($no-blur) saturate($saturation);
+    filter: grayscale($color) blur($no-blur) saturate($saturation);
+  }
+}

@@ -1,0 +1,15 @@
+<a class="swipebox" href="{{ media.src_high }}">
+	<picture>
+		<img
+		sizes="(max-width: {{ site.img-max-width }})px, 100vw, {{ site.img-max-width }}px"
+		srcset="
+		{% for break in site.data.media_breakpoints %}
+		{% if media.ratio == break.ratio and media.format == break.format %}
+		work/{{ break.width }}/{{ media.src }} {{ break.width }}w,
+		{% endif %}
+		{% endfor %}"
+		src="/work/{{ site.img-max-width }}/"
+		alt="{{ media.title }}">
+	</picture>
+</a>
+

@@ -1,0 +1,68 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta name="author" content="{{ site.author }}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <META NAME="{{ site.description }}">
+  
+
+  {% if page.url == "/404.html" %}
+  <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
+
+  <meta name="p:domain_verify" content="f02cbf6a5c8f230685063521292fbfcb"/>
+
+  <meta property="fb:app_id"      content="{{ site.fb-app-id }}" /> 
+  <meta property="og:type"        content="website" /> 
+  <meta property="og:title"       content="{{ site.title }}" />
+  <meta property="og:url"         content="{{ site.url}}" />
+  <meta property="og:image"       content="{{ site.avatar | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  
+  {% for link in site.see-also %}
+  <meta property="og:see_also"    content="{{ link }}" />
+  {% endfor %} 
+
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="{{ site.url}}" />
+  <meta name="twitter:url" content="{{ site.url}}">
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="{{ site.avatar | prepend: site.baseurl | prepend: site.url }}" />
+  <meta name="twitter:site" content="@hello_diogo">
+  <meta name="twitter:creator" content="@hello_diogo">
+  
+
+  <link rel=”author” href=”https://plus.google.com/116739255173599428138”/>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/lib/css/main.css">
+
+  {% include scripts/css_hero.html%}
+  
+  <link rel="icon"  type="image/ico"  href="{{ site.favico | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script>document.createElement( "picture" );</script>
+  <script src="{{ site.baseurl }}/lib/js/head.js"></script>
+
+  <script>
+  (function(d) {
+    var config = {
+      kitId: 'rvc4hsl',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+</head>
+

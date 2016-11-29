@@ -1,0 +1,22 @@
+{% assign featured-cover-path = site.featured-path %}
+{% assign featured-cover-max-size =  791 %}
+{% assign breakpoints = "791|480" | split: "|" %}<!-- responsive imgs -->
+
+<div id="work-portfolio" class="section fp-auto-height">
+	<div class="row" style="max-width:1270px;">
+		<div class="small-12 columns text-center">
+			<h1 class="text-center">{{ site.section-work-title }}</h1>
+			<br><br>
+			<ul class="grid small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+			{% for project in site.projects-featured |limit: 6 %}
+				<li itemscope itemtype="http://schema.org/CreativeWork" typeof="doap:Project">
+					{% include cards/card-work.html %}
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div><!-- post cards -->
+
+
+

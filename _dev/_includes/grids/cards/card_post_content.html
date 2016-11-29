@@ -1,0 +1,52 @@
+{% for post in site.data.posts_info %}
+{% for media in site.data.media %}
+{% if page.post-id == media.page_id and media.type !="methods" and media.type !="thumb" and media.type !="cover" %}
+{% if post.page_id == page.post-id %}	
+<li>
+   <div class="card" id="{{media.page_id}}-{{media.type}}">
+      	<div class="media">
+      		{% if media.type == "image"%}
+	        {% include grids/cards/card_post_image.html %}
+		        {% if media.title != %}
+		        <span class="title"> {{ media.title }} </span>	
+		        {% endif %}
+	        {% endif %}
+	        {% if media.type == "web-image" %}
+	        	<a class="swipebox" href="{{ media.src_high }}">
+	        	<img src="{{ media.src }}">
+	        	</a>
+		        {% if media.title != %}
+		        <span class="title"> {{ media.title }} </span>	
+		        {% endif %}
+	        {% endif %}
+	        {% if media.type == "youtube" %}
+	        <iframe width="560" height="315" src="{{ media.src }}" frameborder="0" allowfullscreen></iframe>
+	        {% endif %}
+	        {% if media.type == "vimeo" %}
+	        <iframe src="{{ media.src }}" width="300" height="169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+	        {% endif %}
+	        {% if media.type == "slideshare" %}
+	        <iframe src="{{ media.src }}"  frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-height: 500px;" allowfullscreen> </iframe>
+	        {% endif %}
+      	</div><!-- card media -->
+      	{% if media.cap != %}	
+      	<div class="cap" style="background: {{ post.bg_color }}; color: {{ post.text_color }}; ">
+        	{{ media.cap }}
+      	</div>
+      	{% endif %}
+      	{% if media.description != %}
+      	<div class="content">
+        	<p>{{ media.description }}</p>
+      	</div>
+      	{% endif %}
+      	{% if media.action != %}
+      	<div class="action">
+        	<a href='{{ media.action_url}}'>{{ media.action }}</a>
+      	</div>
+      	{% endif %}
+    </div><!-- card -->	
+</li><!-- content card -->
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}

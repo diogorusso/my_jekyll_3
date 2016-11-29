@@ -1,0 +1,117 @@
+
+// BUTTONS
+
+input[type="submit"]{
+  border-radius:10rem;
+}
+
+.button {
+	
+	font-family: $btn-font;
+	font-weight: 300; 
+	background: $btn-bg; 
+	color: $btn-txt;
+	margin: 0;
+  border: solid $theme-light-color 0.1rem;
+  padding:0.75rem 1.5rem;
+}
+
+
+.button:focus, .button:hover {
+
+  background: $btn-hover-bg; 
+	color: $btn-hover-txt;
+  border: solid 0.1rem;
+  
+
+}  
+
+
+.btn-light{
+    
+  background: $btn-bg-light; 
+	color: $btn-txt-light;
+  border: solid 1px;
+
+  transition: background 300ms ease-out;
+  transition-property: background;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  transition-delay: initial;
+
+}
+
+
+.btn-light:focus, .btn-light:hover {
+
+  background: $btn-hover-bg-ligtht; 
+	color: $btn-hover-txt-light;
+  border: solid 0.1rem $theme-dark-color;
+  transition: background 300ms ease-out;
+
+}  
+
+.btn-round{
+    border-radius: 10rem;
+}
+
+.btn-circle{
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 10rem;
+}
+
+
+.btn-outline{
+  background: transparent;
+    color: $theme-dark-color;
+    margin: 0;
+    border: solid $theme-dark-color 0.1rem;
+}
+
+
+.btn-outline:focus, .btn-outline:hover {
+
+  background: rgba($theme-dark-color, .25 ); 
+	color: $theme-dark-color;
+  border: solid 0.1rem $theme-dark-color;
+  transition: background 300ms ease-out;
+
+} 
+
+.btn-outline-light{
+  background: transparent;
+    color: $theme-light-color;
+    margin: 0;
+    border: solid $theme-light-color 0.1rem;
+}
+
+
+.btn-outline-light:focus, .btn-outline-light:hover {
+
+  background: rgba($theme-light-color, .25 ); 
+	color: $theme-light-color;
+  border: solid 0.1rem $theme-light-color;
+  transition: background 300ms ease-out;
+
+} 
+
+// BACK TO TOP
+
+.back-to-top {
+    position: fixed;
+    bottom: 10%;
+    right: 0px;
+    text-decoration: none;
+    color: $back-top-btn;
+    display: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media #{$small-only} { 
+  .back-to-top{
+    display: none !important; 
+  }
+}

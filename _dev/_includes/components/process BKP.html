@@ -1,0 +1,100 @@
+<div class="show-for-large-up">
+	<div class="section fp-auto-height" id="{{ site.section-process-url }}-steps-bar">
+	<div class="{{ site.section-process-url }}-bar ">
+				<div class="row fluid large-collapse medium-collapse small-collapse">
+					{% for step in site.process-steps | limit: 6 %}
+					<div class="small-12 medium-6 large-2 columns" style="background:#{{ step.color }};">
+						<a class="tab-title" href="#{{ site.section-process-url }}/{{ step.link }}">
+							<div class="box text-center" style="background:url({{ step.icon }}) center center no-repeat #{{ step.icon-bg }};">
+							</div>
+							<p>{{ step.title }}</p>
+						</a>
+					</div>
+					{% endfor %}
+				</div>	
+			</div> <!-- process bar large screens -->
+
+	</div>
+
+	<!-- LINK DOS SLIDES QUEBRADOS PQ EU DESATIVEI OS DATA LINKS *** PENSAR EM SOLUÇÃO MAIS SIMPLES:)  -->
+
+	<div class="section fp-auto-height" id="{{ site.section-process-url }}-steps">	
+
+	
+		{% for step in site.process-steps | limit: 6 %}
+			<div class="slide fp-auto-height" style=" background: #{{ step.color }};" > 
+				<div class="row" data-equalizer>
+
+
+						<div class="small-12 medium-7 large-7 columns text-right" data-equalizer-watch>
+							<div class="v-center">
+			    				<h3 style="line-height:1;">{{ step.description }}</h3>
+							</div>
+						</div>
+
+							
+						<div class="small-12 medium-5 large-5 columns text-center" data-equalizer-watch>
+						<img src="{{ site.img-process-path }}{{ step.img }}">
+						</div>
+						
+						
+				</div>		
+			</div> <!-- process slide large screens -->
+		{% endfor %}
+	</div>
+</div>
+
+
+<div class="hide-for-large-up">
+
+<div class="section fp-auto-height" id="{{ site.section-process-url }}-steps">	
+
+	<div data-tab class="{{ site.section-process-url }}-bar">
+		<dl class="accordion" data-accordion>
+			<dd class="accordion-navigation">
+				{% for step in site.process-steps | limit: 6 %}
+				<a href="#{{ step.link }}-panel" style="background:#{{ step.color }}; padding:0;">
+					<div class="box text-center" style="background:url({{ step.icon }}) center center no-repeat #{{ step.icon-bg }};">
+					</div>
+					<p style="margin:0;padding-bottom:1.3rem;">{{ step.title }}</p>
+				</a>
+	    		<div id="{{ step.link }}-panel" class="content" style="background:#{{ step.color }};">
+					<div class="row">
+						<div class="small-12 medium-12 large-12 columns">
+		    				<h3 style="line-height:1;">{{ step.description }}</h3>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</dd>
+		</dl>
+	</div>
+
+</div>
+
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

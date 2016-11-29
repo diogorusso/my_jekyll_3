@@ -1,0 +1,49 @@
+blockquote, blockquote p {
+    font-family: $blockquote-font;
+    font-size: $blockquote-size;
+    color: $blockquote-color;
+    line-height: 1.35;
+}
+
+
+h1 {
+  font-family: $h1-font;
+  font-size: $h1-size-lg;
+  line-height: 1;
+}
+
+h2, h3, h4, h5, h6{ font-family: $title-font; line-height: 1.25; }
+
+h6 { font-size: $h6-size-lg;}
+
+
+
+@media #{$medium-only} {
+
+    blockquote, blockquote p {
+        font-size: $blockquote-size-md;
+    }
+
+	h1{
+		font-size: $h1-size-md;
+	}
+	h3{
+		font-size: $h3-size-md;
+	}
+
+ }
+
+
+
+@media #{$small-only} { 
+	h1{
+		font-size: $h1-size-sm;
+	}
+	h3{
+		font-size: $h3-size-sm;
+	}
+    blockquote, blockquote p {
+        font-size: $blockquote-size-sm;
+    }
+}
+

@@ -1,0 +1,12 @@
+<picture>
+    <img
+        sizes="(max-width: {{ featured-cover-max-size }}px)100vw, {{ featured-cover-max-size }}px"
+        
+        srcset=" 
+            {% for break in breakpoints %}
+            {{ featured-cover-path }}/{{ break }}/{{ project.cover }} {{ break }}w,
+            {% endfor %} "
+        src="{{ featured-cover-path }}/{{ featured-cover-max-size }}/{{ project.cover }}"
+        alt="{{ project.title }}"
+    >
+</picture>
