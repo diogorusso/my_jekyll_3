@@ -1,2 +1,1 @@
-# MASTER SRC :)
-
+# JEKYLL GH PAGES :)
