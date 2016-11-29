@@ -7,3 +7,7 @@ gulp.task("gh-pages", function () {
 });
 
 
+gulp.task("html-deploy", function () {
+    return gulp.src("./_dist/jekyll_dist/_site/**/*")
+        .pipe(ghPages({branch: 'html'}));
+});
