@@ -3,9 +3,9 @@
         sizes="(max-width: {{ featured-cover-max-size }}px)100vw, {{ featured-cover-max-size }}px"
         srcset=" 
         {% for break in breakpoints %}
-        {{ site.baseurl }}{{ featured-cover-path }}/{{ break }}/{{ post.post-id }} {{ break }}w,
+            {{ site.baseurl }}/{{ featured-cover-path }}/{{ break }}/{{ post.post-id }} {{ break }}w,
         {% endfor %} 
         "
-        src="{{ site.baseurl }}{{ featured-cover-path }}/{{ featured-cover-max-size }}/{{ post.post-id }}"
+        src="{{ site.baseurl }}/{{ featured-cover-path }}/{{ featured-cover-max-size }}/{{ post.post-id }}"
         alt="{{ post.title }}">
 </picture>
