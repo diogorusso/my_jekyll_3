@@ -1,0 +1,16 @@
+
+#BASE
+
+baseurl: "/my_jekyll_3" # only for github, gulp baseurl set in config_dev.yml
+url: "http://hello.diogorusso.com" # the base hostname & protocol for your site
+
+site-structure: multipage # onepage
+
+
+# Build settings - PRODUCTION
+markdown: kramdown
+gems: [jekyll-paginate,jekyll-sitemap]
+exclude: [/gulp, /node_modules,gulpfile.js,_assets,bower.json,Gemfile ,Gemfile.lock,package.json]
+
+
+

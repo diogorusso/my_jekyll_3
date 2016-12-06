@@ -1,0 +1,29 @@
+
+# Bio
+
+img-bio-path: '/lib/imgs/site/bio/img_resp'
+img-bio-max-size: 791
+img-bio-breakpoints: [791,480]
+img-bio-bg: 'R_bio_bg.jpg'
+img-profile: 'R_profile.jpg'
+img-card: 'R_card.jpg'
+
+
+txt-bio-bg: "#ccc"
+txt-bio: 'Aqui designers, FILMAKERS, FOTÓGRAFOS, ILUSTRADORES, ARTISTAS e entusiastas trabalham de maneira colaborativa, com dedicação, para transformar IDEIAS em RESULTADOS.'
+txt-bio-2: 'Entre os diversos trabalhos realizados destacam-se vídeos institucionais, coberturas audiovisuais, identidade visual, curadoria e produção artística.'
+
+bio-btn-txt:  "Perfil Completo"
+bio-btn-link:  "https://www.linkedin.com/in/diogorusso/en"
+
+
+skills: 
+  - title: "1 Idéia"
+    icon: '/lib/imgs/site/bio/skill_01_experience.png'
+  - title: "2 Proposta"
+    icon: "/lib/imgs/site/bio/skill_02_direction.png"
+  - title: "3 Criação"
+    icon: "/lib/imgs/site/bio/skill_03_web.png"
+  - title: "4 Fim"
+    icon: "/lib/imgs/site/bio/skill_04_graphics.png"
+

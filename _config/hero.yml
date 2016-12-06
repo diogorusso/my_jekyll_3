@@ -1,0 +1,28 @@
+
+
+# Hero 
+
+hero-title: "Estúdio Berinjela"
+hero-subtitle: "Ajudamos pessoas e negócios a<br> melhor comunicarem suas ideias."
+
+hero-btn-txt: "mais"
+
+hero-key-word-1: "Vídeos e Motion"
+hero-key-word-2: "Pautas e Coberturas"
+hero-key-word-3: "Design e Ilustração"
+hero-key-word-4: "Orientação Criativa"
+
+
+
+hero-transtion: "slide"
+hero-arrows: true
+hero-autoplay: true
+
+hero-bgs-path: "/lib/imgs/site/hero_01_fullpage/img_resp"
+
+hero-bgs:
+  - title: "Hello"
+    src: "slide_01.jpg"
+  - title: "Hello 2"
+    src: "slide_01.jpg" 
+
