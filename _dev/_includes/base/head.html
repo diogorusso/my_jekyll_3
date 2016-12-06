@@ -43,9 +43,9 @@
 
   <link rel="stylesheet" href="{{ site.baseurl }}/lib/css/main.css">
 
-  {% include scripts/css_hero.html%}
+  {% include scripts/css_custom.html%}
   
-  <link rel="icon"  type="image/ico"  href="{{ site.favico | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon"  type="image/ico"  href="{{ site.favico | prepend: site.baseurl }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

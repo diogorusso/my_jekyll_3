@@ -15,7 +15,7 @@ $transparent: transparent;
     "../../bower_components/font-awesome/scss/font-awesome",
     "../../bower_components/sass-burger/burger",
     "../vendors/fullpage",
-    "../base/helpers",
+    "../helpers/helpers",
 	"../base/config-colors",
     "../base/config-text",
     "../base/body",
@@ -30,5 +30,7 @@ $transparent: transparent;
     "../components/bio",
     "../components/hero",
     "../components/process",
-    "../components/work"
+    "../components/work",
+    "../components/mailchimp",
+    "../components/posts"
 ;

@@ -32,7 +32,7 @@
     "lodash": "^4.2.1",
     "psd": "^3.1.0",
     "require-dir": "^0.3.0",
-    "run-sequence": "^1.1.5",
+    "run-sequence": "^1.2.2",
     "v": "0.0.9"
   }
 }

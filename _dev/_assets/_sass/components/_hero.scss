@@ -25,6 +25,10 @@
 
   h1,h3,p, i { color:$hero-txt; }
 
+  h4{
+    padding-top: 0.5rem;
+  }
+
    a, a:focus, a:hover{
         color: $hero-txt;
     }

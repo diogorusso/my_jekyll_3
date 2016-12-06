@@ -1,12 +1,19 @@
 var gulp 	= require('gulp');
-var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
+var clean   = require('gulp-clean');
+var runSequence = require('run-sequence');
 
+gulp.task('scripts', function() {
+  runSequence('scripts-clean',
+              'scripts-head',
+              'scripts-footer' 
+    );
+});
 
-// ######### SCRIPTS ###############
-
-gulp.task("scripts", ['scripts-footer','scripts-head']);
-
+gulp.task('scripts-clean', function () {
+  return gulp.src('./_dev/lib/js/', {read: true})
+    .pipe(clean());
+});
 
 // ######### SCRIPTS HEAD ###############
 
@@ -18,7 +25,6 @@ gulp.task('scripts-head', function() {
         './_dev/_assets/vendors/picturefill-master/dist/picturefill.js'
         ])
     .pipe(concat('head.js'))
-    .pipe(uglify())
     .pipe(gulp.dest('./_dev/lib/js/'));
 
 });
@@ -51,7 +57,6 @@ gulp.task('scripts-footer', function() {
   			
         ])
     .pipe(concat('script.js'))
-    .pipe(uglify())
     .pipe(gulp.dest('./_dev/lib/js/'));
 
 });
