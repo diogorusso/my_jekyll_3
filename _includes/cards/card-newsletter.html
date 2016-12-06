@@ -8,7 +8,7 @@
                         {% for break in site.img-bio-breakpoints %}
                         {{ site.img-bio-path }}/{{ break }}/{{ site.img-profile }} {{ break }}w,
                         {% endfor %}"
-                    src="{{ site.img-bio-path }}/{{ site.img-max-width }}/{{ site.img-profile }}"
+                    src="{{ site.baseurl }}{{ site.img-bio-path }}/{{ site.img-max-width }}/{{ site.img-profile }}"
                     alt="{{ site.author }} profile">
             </picture>
             <span class="card-media-title">category</span>
@@ -30,7 +30,7 @@
         <a class="button btn-round" href="#">hello</a>
         <a class="button btn-light btn-round" href="#">hello</a>
         {% for media in site.social | limit: 3 %}
-            <a type="button" class="button btn-circle" href="{{ media.url }}" target="blank" >
+            <a type="button" class="button btn-circle" href="{{ site.baseurl }}{{ media.url }}" target="blank" >
                 <i class="fa fa-{{media.name}}" aria-hidden="true"></i>
             </a>
         {% endfor %}

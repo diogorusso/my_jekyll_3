@@ -42,13 +42,13 @@ menu-links_multipage:
   - title: "Work"
     url: "/"
   - title: "Journal"
-    url: "/"
+    url: "/work"
   - title: "Newsletter"
-    url: "/"
+    url: "/sign-up.html"
     icon: heart
     icon-color: "fff"
   - title: "Connect"
-    url: "/"
+    url: "#connect"
 
 menu-links_onepage:
   - title: O Estúdio

@@ -2,23 +2,23 @@
   {% if page.txt-color == "dark" %}
     {% if link.external == true %}
           {% if link.icon %}
-            <a class="top-bar-li-dark" href="{{ link.url }}" target="blank">
+            <a class="top-bar-li-dark" href="{{ site.baseurl }}{{ link.url }}" target="blank">
               <i class="fa fa-{{ link.icon }}" style="color:#{{ link.icon-color }}"></i> 
               {{ link.title }}
             </a>
           {% else %}
-            <a class="top-bar-li-dark page-scroll" href="{{ link.url }}">
+            <a class="top-bar-li-dark page-scroll" href="{{ site.baseurl }}{{ link.url }}">
               {{ link.title }}
             </a>
           {% endif %}
     {% else %}
         {% if link.icon %}
-              <a class="top-bar-li-dark page-scroll" href="{{ link.url }}">
+              <a class="top-bar-li-dark page-scroll" href="{{ site.baseurl }}{{ link.url }}">
                 <i class="fa fa-{{ link.icon }}" style="color:#{{ link.icon-color }}"></i> 
                 {{ link.title }}
               </a>
         {% else %}
-              <a class="top-bar-li-dark page-scroll" href="{{ link.url }}">
+              <a class="top-bar-li-dark page-scroll" href="{{ site.baseurl }}{{ link.url }}">
                 {{ link.title }}
               </a>
         {% endif %}

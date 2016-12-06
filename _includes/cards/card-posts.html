@@ -2,31 +2,10 @@
     <div class="card-media">
         <a href="{{ site.baseurl }}/{{ post.url }}">
              {% include imgs/img-post-cover.html %}
-            <!--span class="card-media-title">category</span-->
         </a> 
     </div>
     <div class="card-container">
         <div class="card-title" itemprop="name">{{ post.title }}</div>
         <div class="card-description" itemprop="name">{{ post.description}}</div>
     </div>
-    <!--div class="card-container card-tags">
-        {% for tag in post.tags %}
-            <span class="card-tag">{{ tag }}</span>
-        {% endfor %}  
-    </div-->
-    <!--div class="card-container card-author">{{ site.author }} - {{ site.description }}</div>  
-    <div  class="card-callout">CALL OUT </div>
-    <div class="card-container"> 
-        <a class="button" href="#">hello</a> 
-        <a class="button btn-light" href="#">hello</a>
-        <a class="button btn-round" href="#">hello</a>
-        <a class="button btn-light btn-round" href="#">hello</a>
-        {% for media in site.social | limit: 3 %}
-            <a type="button" class="button btn-circle" href="{{ media.url }}" target="blank" >
-                <i class="fa fa-{{media.name}}" aria-hidden="true"></i>
-            </a>
-        {% endfor %}
-        <a class="button btn-outline" href="#">hello</a>
-        <a class="button btn-outline-light" href="#">hello</a>
-    </div-->
 </div>
