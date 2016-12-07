@@ -2,4 +2,4 @@ _dist
 _dev/_site
 _dev/_assets/bower_components
 node_modules
-.publish/**/*.*
+.publish
