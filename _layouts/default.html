@@ -11,15 +11,11 @@
 
     {{ content }}
     
-
      {% include base/back_top_btn.html %}
 
     <script type="text/javascript" src="{{ site.baseurl }}/lib/js/script.js"></script>
     
     {% include scripts/js_init_fullpage.html %}
-    {% if page.page-id == "novo" %} 
-      {% include scripts/js_about.html %}
-    {% endif %} 
     {% include scripts/js_g_analytics.html %}
 
   </body>

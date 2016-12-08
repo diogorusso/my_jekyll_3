@@ -1,94 +1,15 @@
-/* HERO ABOUT - WORK */
+---
+layout: script
+---
 
-{% assign break = "480|791|1042|1482|1920" | split: "|" %}
-{% assign heros-01-main-max-size =  1920 %}
+{% include scripts/css_hero.css %}
 
-{% for hero in site.hero-bgs %}
+{% include scripts/css_hero-post.css %}
 
-.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[3] }}/{{ hero.src  }}');
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		-o-background-size: cover;
-	}
+{% include scripts/css_process.css %}
 
-@media only screen and (max-width: {{ break[0] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[2] }}/{{ hero.src  }}');
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		-o-background-size: cover;
-	}
-}
-@media only screen and (min-width: {{ break[0] }}px) and (max-width: {{ break[1] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[2] }}/{{ hero.src  }}');
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-}
-@media only screen and (min-width: {{ break[1] }}px) and (max-width: {{ break[2] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[3] }}/{{ hero.src  }}');
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-}
-@media only screen and (min-width: {{ break[2] }}px) and (max-width: {{ break[3] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[3] }}/{{ hero.src  }}');
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-}
-@media only screen and (min-width: {{ break[3] }}px) and (max-width: {{ break[4] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[4] }}/{{ hero.src  }}');
-		 -webkit-background-size: cover;
-		 -moz-background-size: cover;
-		 -o-background-size: cover;
-		 background-size: cover;
-	}
-}
-@media only screen and (min-width: {{ break[4] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[4] }}/{{ hero.src  }}');
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-}
-{% endfor %}
+{% include scripts/css_bio.css %}
 
 
 
 
-.hero-about{
-
-    background: url({{ site.baseurl }}{{ featured-cover-path }}/2147/{{ page.post-id }}) no-repeat center center; 
-    opacity:0.2; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;
-    -o-background-size: cover; 
-    background-size: cover;
-
-}
-
-.bio-txt-bg{
-    background: {{ site.txt-bio-bg }};
-}
-
-.box-process{
-    background:url({{ step.icon }}) center center no-repeat #{{ step.icon-bg }};
-}

@@ -4,9 +4,9 @@
         
         srcset=" 
             {% for break in breakpoints %}
-                {{ site.baseurl }}{{ featured-cover-path }}/{{ break }}/{{ project.cover }} {{ break }}w,
+                {{ site.baseurl }}{{ site.img-path }}/{{ break }}/{{ project.cover }} {{ break }}w,
             {% endfor %} "
-        src="{{ site.baseurl }}/{{ featured-cover-path }}/{{ featured-cover-max-size }}/{{ project.cover }}"
+        src="{{ site.baseurl }}/{{ site.img-path }}/{{ featured-cover-max-size }}/{{ project.cover }}"
         alt="{{ project.title }}"
     >
 </picture>

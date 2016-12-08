@@ -1,11 +1,13 @@
 <div class="card">
-    <div class="card-media">
-        <a href="{{ site.baseurl }}/{{ post.url }}">
-             {% include imgs/img-post-cover.html %}
-        </a> 
-    </div>
-    <div class="card-container">
-        <div class="card-title" itemprop="name">{{ post.title }}</div>
-        <div class="card-description" itemprop="name">{{ post.description}}</div>
-    </div>
+    <a href="{{ site.baseurl }}/{{ post.url }}">
+        <div class="card-media">
+        {% include imgs/img-post-cover.html %}
+        </div>
+        <div class="card-container text-center">
+            <a href="{{ site.baseurl }}/{{ post.url }}">
+                <div class="card-title" itemprop="name">{{ post.title }}</div>
+                <div class="card-description" itemprop="name">{{ post.description}}</div>
+            </a> 
+        </div>
+    </a>
 </div>
