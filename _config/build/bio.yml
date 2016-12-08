@@ -19,11 +19,11 @@ bio-btn-link:  "https://www.linkedin.com/in/diogorusso/en"
 
 skills: 
   - title: "1 Idéia"
-    icon: '/lib/imgs/site/bio/skill_01_experience.png'
+    icon: '/lib/img/base/bio-skill-img-01.png'
   - title: "2 Proposta"
-    icon: "/lib/imgs/site/bio/skill_02_direction.png"
+    icon: "/lib/imgs/site/bio-skill-img-02.png"
   - title: "3 Criação"
-    icon: "/lib/imgs/site/bio/skill_03_web.png"
+    icon: "/lib/imgs/site/bio-skill-img-03.png"
   - title: "4 Fim"
-    icon: "/lib/imgs/site/bio/skill_04_graphics.png"
+    icon: "/lib/imgs/site/bio-skill-img-04.png"
 

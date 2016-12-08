@@ -15,14 +15,15 @@ hero-key-word-4: "Orientação Criativa"
 
 
 hero-transtion: "slide"
-hero-arrows: true
-hero-autoplay: true
+hero-arrows: false
+hero-autoplay: false
 
-hero-bgs-path: "/lib/imgs/site/hero_01_fullpage/img_resp"
+hero-bgs-type: ".jpg"
+hero-bgs-path: "/lib/img/base/"
 
 hero-bgs:
   - title: "Hello"
-    src: "slide_01.jpg"
+    src: "hero-slide-bg-01"
   - title: "Hello 2"
-    src: "slide_01.jpg" 
+    src: "hero-slide-bg-01" 
 

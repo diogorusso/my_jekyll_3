@@ -6,9 +6,9 @@ job: "experience designer"
 title: "Estúdio Berinjela | Criação"
 description: "I'm a DESIGNER and STORYTELLER
 I help businesses, individuals and communities craft meaningful EXPERIENCES and PRODUCTS"
-logo: "lib/imgs/site/logo.png"
-favico: "/lib/imgs/site/favicon.ico"
-avatar: "/lib/imgs/site/site_card.jpg"
+logo: "lib/img/base/logo.png"
+favico: "/lib/img/base/favicon.ico"
+avatar: "/lib/img/base/site_card.jpg"
 email: hello@diogorusso.com
 country: "United States"
 region: "California"

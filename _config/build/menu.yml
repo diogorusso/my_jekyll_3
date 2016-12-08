@@ -1,6 +1,3 @@
-#Menu 
-
-site-structure: multipage # onepage
 
 menu-links_multipage:
   - title: "Work"
