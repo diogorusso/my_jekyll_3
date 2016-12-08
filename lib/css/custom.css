@@ -1,12 +1,13 @@
+
 /* HERO ABOUT - WORK */
 
-{% assign break = "480|791|1042|1482|1920" | split: "|" %}
-{% assign heros-01-main-max-size =  1920 %}
 
-{% for hero in site.hero-bgs %}
 
-.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[3] }}/{{ hero.src  }}');
+
+
+
+.Hello{
+		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -14,9 +15,9 @@
 		-o-background-size: cover;
 	}
 
-@media only screen and (max-width: {{ break[0] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[2] }}/{{ hero.src  }}');
+@media only screen and (max-width: 480px) {
+	.Hello{
+		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -24,71 +25,189 @@
 		-o-background-size: cover;
 	}
 }
-@media only screen and (min-width: {{ break[0] }}px) and (max-width: {{ break[1] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[2] }}/{{ hero.src  }}');
+@media only screen and (min-width: 480px) and (max-width: 791px) {
+	.Hello{
+		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
 }
-@media only screen and (min-width: {{ break[1] }}px) and (max-width: {{ break[2] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[3] }}/{{ hero.src  }}');
+@media only screen and (min-width: 791px) and (max-width: 1042px) {
+	.Hello{
+		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
 }
-@media only screen and (min-width: {{ break[2] }}px) and (max-width: {{ break[3] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[3] }}/{{ hero.src  }}');
+@media only screen and (min-width: 1042px) and (max-width: 1482px) {
+	.Hello{
+		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
 }
-@media only screen and (min-width: {{ break[3] }}px) and (max-width: {{ break[4] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[4] }}/{{ hero.src  }}');
+@media only screen and (min-width: 1482px) and (max-width: 1920px) {
+	.Hello{
+		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
 		 -webkit-background-size: cover;
 		 -moz-background-size: cover;
 		 -o-background-size: cover;
 		 background-size: cover;
 	}
 }
-@media only screen and (min-width: {{ break[4] }}px) {
-	.{{ hero.title }}{
-		background:url('{{ site.hero-bgs-path }}/{{ break[4] }}/{{ hero.src  }}');
+@media only screen and (min-width: 1920px) {
+	.Hello{
+		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
 }
-{% endfor %}
 
 
+.Hello 2{
+		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+	}
 
-
-.hero-about{
-
-    background: url({{ site.baseurl }}{{ featured-cover-path }}/2147/{{ page.post-id }}) no-repeat center center; 
-    opacity:0.2; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;
-    -o-background-size: cover; 
-    background-size: cover;
-
+@media only screen and (max-width: 480px) {
+	.Hello 2{
+		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+	}
 }
+@media only screen and (min-width: 480px) and (max-width: 791px) {
+	.Hello 2{
+		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+@media only screen and (min-width: 791px) and (max-width: 1042px) {
+	.Hello 2{
+		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+@media only screen and (min-width: 1042px) and (max-width: 1482px) {
+	.Hello 2{
+		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+@media only screen and (min-width: 1482px) and (max-width: 1920px) {
+	.Hello 2{
+		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
+		 -webkit-background-size: cover;
+		 -moz-background-size: cover;
+		 -o-background-size: cover;
+		 background-size: cover;
+	}
+}
+@media only screen and (min-width: 1920px) {
+	.Hello 2{
+		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+
+
+
+
+/* HERO POSTS */
+
+
+
+
+
+
+
+.post-hero-slide-bg{
+	background: url(/my_jekyll_3) no-repeat center center; 
+	opacity:1; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+/* PROCESS BG */
+
+	.process-id-1{
+		background:#50E3C2;
+	}
+	.process-icon-1{
+		background: url(/lib/img/process-bar-img-step-1.png) center center no-repeat #000;
+	}
+
+	.process-id-2{
+		background:#F8E71C;
+	}
+	.process-icon-2{
+		background: url(/lib/img/process-bar-img-step-2.png) center center no-repeat #000;
+	}
+
+	.process-id-3{
+		background:#BD71FF;
+	}
+	.process-icon-3{
+		background: url(/lib/img/process-bar-img-step-3.png) center center no-repeat #000;
+	}
+
+	.process-id-4{
+		background:#4A90E2;
+	}
+	.process-icon-4{
+		background: url(/lib/img/process-bar-img-step-4.png) center center no-repeat #000;
+	}
+
+	.process-id-5{
+		background:#F5A623;
+	}
+	.process-icon-5{
+		background: url(/lib/img/process-bar-img-step-5.png) center center no-repeat #000;
+	}
+
+	.process-id-6{
+		background:#f14b4b;
+	}
+	.process-icon-6{
+		background: url(/lib/img/process-bar-img-step-6.png) center center no-repeat #000;
+	}
+
 
 .bio-txt-bg{
-    background: {{ site.txt-bio-bg }};
+	background: #ccc;
 }
 
-.box-process{
-    background:url({{ step.icon }}) center center no-repeat #{{ step.icon-bg }};
-}
+
+
+
+
