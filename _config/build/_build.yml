@@ -22,3 +22,7 @@ paginate: 12
 paginate_home: "/work"
 paginate_link: "/work/page"
 paginate_path: "/work/page:num"
+
+
+img-path: '/lib/img'
+img-max-width : '1920'

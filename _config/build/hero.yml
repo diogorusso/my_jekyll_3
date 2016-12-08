@@ -18,12 +18,9 @@ hero-transtion: "slide"
 hero-arrows: false
 hero-autoplay: false
 
-hero-bgs-type: ".jpg"
-hero-bgs-path: "/lib/img/base/"
-
 hero-bgs:
   - title: "Hello"
-    src: "hero-slide-bg-01"
+    src: "hero-slide-bg-01.jpg"
   - title: "Hello 2"
-    src: "hero-slide-bg-01" 
+    src: "hero-slide-bg-01.jpg" 
 

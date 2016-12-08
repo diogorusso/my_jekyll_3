@@ -12,16 +12,16 @@ var imgBreakpoints = {
 };
 
 
-gulp.task('site-imgs', function() {
+gulp.task('imgs', function() {
   runSequence(
-              'site-imgs-clean',
+              'imgs-clean',
               'sketch',
               'imgs-copy',
               'imgs-resp'
         );
 });
 
-gulp.task('site-imgs-clean', function () {
+gulp.task('imgs-clean', function () {
   return gulp.src([
     imgSrc,
     imgDest], 
@@ -65,7 +65,7 @@ gulp.task("imgs-resp", function () {
   for ( var i = 0; i < imgBreakpoints.sizes.length; i++) {
     var objs = imgBreakpoints.sizes[i];
     console.log(imgSrcPaths.src+ '------' + objs);
-    
+
     GenImages(objs)
     }
 });

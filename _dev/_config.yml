@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: 'http://localhost:1818/'
 url: ''
 markdown: kramdown
 gems:
@@ -25,27 +25,28 @@ paginate: 12
 paginate_home: /work
 paginate_link: /work/page
 paginate_path: '/work/page:num'
+img-path: /lib/img
+img-max-width: '1920'
 author: Diogo Russo
 job: experience designer
 title: Estúdio Berinjela | Criação
 description: >-
   I'm a DESIGNER and STORYTELLER I help businesses, individuals and communities
   craft meaningful EXPERIENCES and PRODUCTS
-logo: lib/imgs/site/logo.png
-favico: /lib/imgs/site/favicon.ico
-avatar: /lib/imgs/site/site_card.jpg
+logo: +logo.png
+favico: /lib/img/_favicon.ico
+avatar: +avatar.png
+card: /lib/img/_site_card.jpg
 email: hello@diogorusso.com
 country: United States
 region: California
 city: Berkeley
-img-bio-path: /lib/imgs/site/bio/img_resp
 img-bio-max-size: 791
 img-bio-breakpoints:
   - 791
   - 480
-img-bio-bg: R_bio_bg.jpg
-img-profile: R_profile.jpg
-img-card: R_card.jpg
+img-profile: bio-img-profile.jpg
+img-card: bio-img-postcard.jpg
 txt-bio-bg: '#ccc'
 txt-bio: >-
   Aqui designers, FILMAKERS, FOTÓGRAFOS, ILUSTRADORES, ARTISTAS e entusiastas
@@ -58,13 +59,13 @@ bio-btn-txt: Perfil Completo
 bio-btn-link: 'https://www.linkedin.com/in/diogorusso/en'
 skills:
   - title: 1 Idéia
-    icon: /lib/imgs/site/bio/skill_01_experience.png
+    icon: /lib/img/bio-skill-img-01.png
   - title: 2 Proposta
-    icon: /lib/imgs/site/bio/skill_02_direction.png
+    icon: /lib/img/bio-skill-img-02.png
   - title: 3 Criação
-    icon: /lib/imgs/site/bio/skill_03_web.png
+    icon: /lib/imgs/bio-skill-img-03.png
   - title: 4 Fim
-    icon: /lib/imgs/site/bio/skill_04_graphics.png
+    icon: /lib/img/bio-skill-img-04.png
 hero-title: Estúdio Berinjela
 hero-subtitle: Ajudamos pessoas e negócios a<br> melhor comunicarem suas ideias.
 hero-btn-txt: mais
@@ -73,14 +74,13 @@ hero-key-word-2: Pautas e Coberturas
 hero-key-word-3: Design e Ilustração
 hero-key-word-4: Orientação Criativa
 hero-transtion: slide
-hero-arrows: true
-hero-autoplay: true
-hero-bgs-path: /lib/imgs/site/hero_01_fullpage/img_resp
+hero-arrows: false
+hero-autoplay: false
 hero-bgs:
   - title: Hello
-    src: slide_01.jpg
+    src: hero-slide-bg-01.jpg
   - title: Hello 2
-    src: slide_01.jpg
+    src: hero-slide-bg-01.jpg
 menu-links_multipage:
   - title: Work
     url: /
@@ -103,14 +103,23 @@ menu-links_onepage:
     url: '#connect'
     icon: heart
     icon-color: f14b4b
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      auto-scroll: false
+      txt-color: dark
+      hero: true
+      hero-bg-color: '#000'
 section-process-url: process
-img-process-path: lib/imgs/site/process_steps/
 process-steps:
   - title: Vídeo <br>& Motion
     id: 1
     color: 50E3C2
     link: ''
-    icon: /lib/imgs/site/process_steps/step_0_creativity_icon.png
+    icon: /lib/img/process-bar-img-step-1.png
     icon-bg: '000'
     img: step_0_creativity_img.jpg
     description: >-
@@ -120,7 +129,7 @@ process-steps:
     id: 2
     color: F8E71C
     link: experience
-    icon: /lib/imgs/site/process_steps/step_1_experience_icon.png
+    icon: /lib/img/process-bar-img-step-2.png
     icon-bg: '000'
     img: step_1_experience_img.jpg
     description: >-
@@ -130,7 +139,7 @@ process-steps:
     id: 3
     color: BD71FF
     link: document
-    icon: /lib/imgs/site/process_steps/step_2_document_icon.png
+    icon: /lib/img/process-bar-img-step-3.png
     icon-bg: '000'
     img: step_2_document_img.jpg
     description: >-
@@ -140,7 +149,7 @@ process-steps:
     id: 4
     color: 4A90E2
     link: prototype
-    icon: /lib/imgs/site/process_steps/step_3_prototype_icon.png
+    icon: /lib/img/process-bar-img-step-4.png
     icon-bg: '000'
     img: step_3_prototype_img.jpg
     description: >-
@@ -150,7 +159,7 @@ process-steps:
     id: 5
     color: F5A623
     link: design
-    icon: /lib/imgs/site/process_steps/step_4_design_icon.png
+    icon: /lib/img/process-bar-img-step-5.png
     icon-bg: '000'
     img: step_4_design_img.jpg
     description: >-
@@ -160,7 +169,7 @@ process-steps:
     id: 6
     color: f14b4b
     link: work
-    icon: /lib/imgs/site/process_steps/step_5_connect_icon.png
+    icon: /lib/img/process-bar-img-step-6.png
     icon-bg: '000'
     img: step_4_design_img.jpg
     description: >-
@@ -193,30 +202,29 @@ work-call-to-action-btns:
   - title: Tools & Methods
     link: '#'
     bg-color: '#c7c7c7'
-featured-path: /lib/imgs/site/grid_featured/img_resp
 projects-featured:
-  - cover: launchpad.jpg
+  - cover: portfolio-cover-01.jpg
     title: LaunchPad UX
     fields: 'UI/UX, Product Design'
     url: 'http://work.diogorusso.com/launchpad'
-  - cover: Coca-Cola_FWC_14.jpg
+  - cover: portfolio-cover-02.jpg
     title: World Cup Brazil
     fields: 'Creative Direction, Film, Photography'
     url: >-
       http://work.diogorusso.com/fwc-2014-conteudo-multimidia-cobertura-coca-cola
-  - cover: Kenner_Music_case.jpg
+  - cover: portfolio-cover-03.jpg
     title: Kenner IxD & Video
     fields: 'Creative Direction, Interaction Design'
     url: 'http://work.diogorusso.com/kenner-ixd-motion'
-  - cover: foodtopia.jpg
+  - cover: portfolio-cover-04.jpg
     title: FOODTOPIA xD
     fields: 'Entrepreneurship, Product Design'
     url: 'http://work.diogorusso.com/foodtopia'
-  - cover: website.jpg
+  - cover: portfolio-cover-05.jpg
     title: Wordpress for Startups
     fields: 'UI/UX, Web Design'
     url: 'http://work.diogorusso.com/webdesign-for-business'
-  - cover: escola_Sesc.jpg
+  - cover: portfolio-cover-06.jpg
     title: SESC School ID
     fields: 'Branding, Graphic Design'
     url: 'http://work.diogorusso.com/escola-sesc-id'

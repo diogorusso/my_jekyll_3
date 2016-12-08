@@ -2,6 +2,7 @@
 module.exports = {
   watch: {
     jekyll: [
+      '_config/**/*.*',
       '_dev/_config.yml',
       '_dev/_config_dev.yml',
       '_dev/_includes/**/*.*',

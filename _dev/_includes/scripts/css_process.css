@@ -1,0 +1,9 @@
+/* PROCESS BG */
+{% for step in site.process-steps | limit: 6 %}
+	.process-id-{{ step.id }}{
+		background:#{{ step.color }};
+	}
+	.process-icon-{{ step.id }}{
+		background: url({{ step.icon }}) center center no-repeat #{{ step.icon-bg }};
+	}
+{% endfor %}
