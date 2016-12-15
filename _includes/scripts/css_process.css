@@ -4,6 +4,6 @@
 		background:#{{ step.color }};
 	}
 	.process-icon-{{ step.id }}{
-		background: url({{ step.icon }}) center center no-repeat #{{ step.icon-bg }};
+		background: url({{ site.baseurl }}{{ step.icon }}) center center no-repeat #{{ step.icon-bg }};
 	}
 {% endfor %}
