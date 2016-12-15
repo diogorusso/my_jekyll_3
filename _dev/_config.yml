@@ -1,5 +1,5 @@
-baseurl: 'http://localhost:1818/'
-url: ''
+baseurl: /my_jekyll_3
+url: 'http://hello.diogorusso.com'
 markdown: kramdown
 gems:
   - jekyll-paginate
@@ -13,7 +13,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
-  - .publish
 site-structure: multipage
 g-analytics: UA-59944728-3
 fb-app-id: '915671155245552'
