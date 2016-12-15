@@ -5,8 +5,8 @@
     <description>I'm a DESIGNER and STORYTELLER I help businesses, individuals and communities craft meaningful EXPERIENCES and PRODUCTS</description>
     <link>http://hello.diogorusso.com/my_jekyll_3/</link>
     <atom:link href="http://hello.diogorusso.com/my_jekyll_3/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Dec 2016 18:53:34 -0800</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2016 18:53:34 -0800</lastBuildDate>
+    <pubDate>Wed, 14 Dec 2016 19:54:22 -0800</pubDate>
+    <lastBuildDate>Wed, 14 Dec 2016 19:54:22 -0800</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -69,17 +69,17 @@
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3//lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
@@ -94,57 +94,27 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/24/site-config.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/site-config.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3//lib/content/cover/post-default-cover.jpg&quot; alt=&quot;Site Configuration&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/24/site-config.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;Site Configuration&lt;/div&gt;
-                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Configuration DOCS for config.yml&lt;/div&gt;
-            &lt;/a&gt; 
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/div&gt;
-    &lt;/li&gt;
-  
-    &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
-      &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/24/cards.html&quot;&gt;
-        &lt;div class=&quot;card-media&quot;&gt;
-        &lt;picture&gt;
-    &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
-        
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1826w,
-        
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1511w,
-        
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1118w,
-        
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 795w,
-        
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 480w,
-         
-        &quot; src=&quot;/my_jekyll_3//lib/content/cover/post-default-cover.jpg&quot; alt=&quot;Responsive Cards&quot; /&gt;
-&lt;/picture&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/24/cards.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;Responsive Cards&lt;/div&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/site-config.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
                 &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
             &lt;/a&gt; 
         &lt;/div&gt;
@@ -154,28 +124,28 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/19/styleguide.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/cards.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3//lib/content/cover/post-default-cover.jpg&quot; alt=&quot;STYLEGUIDE POSTS&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/19/styleguide.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;STYLEGUIDE POSTS&lt;/div&gt;
-                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;MARKDOWN BLOG STYLE GUIDE&lt;/div&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/cards.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
+                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
             &lt;/a&gt; 
         &lt;/div&gt;
     &lt;/a&gt;
@@ -184,28 +154,58 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/19/embed.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/styleguide.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3//lib/content/cover/post-default-cover.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3//lib/content/cover/post-default-cover.jpg&quot; alt=&quot;steps to build my EMBED POSTS styleguide&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/19/embed.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;steps to build my EMBED POSTS styleguide&lt;/div&gt;
-                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt; EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE&lt;/div&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/styleguide.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
+                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
+            &lt;/a&gt; 
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+    &lt;/li&gt;
+  
+    &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/embed.html&quot;&gt;
+        &lt;div class=&quot;card-media&quot;&gt;
+        &lt;picture&gt;
+    &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
+         
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
+&lt;/picture&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-container text-center&quot;&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/embed.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
+                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
             &lt;/a&gt; 
         &lt;/div&gt;
     &lt;/a&gt;
@@ -227,7 +227,7 @@
       </item>
     
       <item>
-        <title>Site Configuration</title>
+        <title>HELLO</title>
         <description>&lt;p&gt;#URL&lt;/p&gt;
 
 &lt;p&gt;baseurl: “” # only for github, gulp baseurl set in config_dev.yml
@@ -482,18 +482,18 @@ paginate_link: “/work/page”
 paginate_path: “/work/page:num”&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Nov 2016 00:00:00 -0800</pubDate>
-        <link>http://hello.diogorusso.com/my_jekyll_3/2016/11/24/site-config.html</link>
-        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/2016/11/24/site-config.html</guid>
+        <link>http://hello.diogorusso.com/my_jekyll_3/category/2016/11/24/site-config.html</link>
+        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/category/2016/11/24/site-config.html</guid>
         
-        <category>config</category>
+        <category>journal</category>
         
-        <category>style guide</category>
         
+        <category>category</category>
         
       </item>
     
       <item>
-        <title>Responsive Cards</title>
+        <title>HELLO</title>
         <description>
 &lt;ul class=&quot;grid small-block-grid-1 medium-block-grid-2 large-block-grid-1&quot;&gt;
   &lt;li&gt;
@@ -552,17 +552,17 @@ paginate_path: “/work/page:num”&lt;/p&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3/20160407_posts.132.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3/20160407_posts.132.jpg&quot; alt=&quot;HELLO&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
@@ -577,57 +577,27 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/24/site-config.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/site-config.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3/20160407_posts.132.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3/20160407_posts.132.jpg&quot; alt=&quot;Site Configuration&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/24/site-config.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;Site Configuration&lt;/div&gt;
-                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Configuration DOCS for config.yml&lt;/div&gt;
-            &lt;/a&gt; 
-        &lt;/div&gt;
-    &lt;/a&gt;
-&lt;/div&gt;
-    &lt;/li&gt;
-  
-    &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
-      &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/24/cards.html&quot;&gt;
-        &lt;div class=&quot;card-media&quot;&gt;
-        &lt;picture&gt;
-    &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
-        
-           /my_jekyll_3/20160407_posts.132.jpg 1826w,
-        
-           /my_jekyll_3/20160407_posts.132.jpg 1511w,
-        
-           /my_jekyll_3/20160407_posts.132.jpg 1118w,
-        
-           /my_jekyll_3/20160407_posts.132.jpg 795w,
-        
-           /my_jekyll_3/20160407_posts.132.jpg 480w,
-         
-        &quot; src=&quot;/my_jekyll_3/20160407_posts.132.jpg&quot; alt=&quot;Responsive Cards&quot; /&gt;
-&lt;/picture&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/24/cards.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;Responsive Cards&lt;/div&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/site-config.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
                 &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
             &lt;/a&gt; 
         &lt;/div&gt;
@@ -637,28 +607,28 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/19/styleguide.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/cards.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3/20160407_posts.132.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3/20160407_posts.132.jpg&quot; alt=&quot;STYLEGUIDE POSTS&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/19/styleguide.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;STYLEGUIDE POSTS&lt;/div&gt;
-                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;MARKDOWN BLOG STYLE GUIDE&lt;/div&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/cards.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
+                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
             &lt;/a&gt; 
         &lt;/div&gt;
     &lt;/a&gt;
@@ -667,28 +637,58 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//2016/11/19/embed.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/styleguide.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
         
-           /my_jekyll_3/20160407_posts.132.jpg 1826w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1511w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 1118w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 795w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
         
-           /my_jekyll_3/20160407_posts.132.jpg 480w,
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
          
-        &quot; src=&quot;/my_jekyll_3/20160407_posts.132.jpg&quot; alt=&quot;steps to build my EMBED POSTS styleguide&quot; /&gt;
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
 &lt;/picture&gt;
         &lt;/div&gt;
         &lt;div class=&quot;card-container text-center&quot;&gt;
-            &lt;a href=&quot;/my_jekyll_3//2016/11/19/embed.html&quot;&gt;
-                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;steps to build my EMBED POSTS styleguide&lt;/div&gt;
-                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt; EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE GUIDE EMBED BLOG STYLE&lt;/div&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/styleguide.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
+                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
+            &lt;/a&gt; 
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+    &lt;/li&gt;
+  
+    &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/embed.html&quot;&gt;
+        &lt;div class=&quot;card-media&quot;&gt;
+        &lt;picture&gt;
+    &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1826w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1511w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 1118w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 795w,
+        
+           /my_jekyll_3/lib/content/cover/post-default-cover.jpg 480w,
+         
+        &quot; src=&quot;/my_jekyll_3/lib/content/cover/post-default-cover.jpg&quot; alt=&quot;HELLO&quot; /&gt;
+&lt;/picture&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-container text-center&quot;&gt;
+            &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/embed.html&quot;&gt;
+                &lt;div class=&quot;card-title&quot; itemprop=&quot;name&quot;&gt;HELLO&lt;/div&gt;
+                &lt;div class=&quot;card-description&quot; itemprop=&quot;name&quot;&gt;Responsive cards Study&lt;/div&gt;
             &lt;/a&gt; 
         &lt;/div&gt;
     &lt;/a&gt;
@@ -699,18 +699,18 @@ paginate_path: “/work/page:num”&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 24 Nov 2016 00:00:00 -0800</pubDate>
-        <link>http://hello.diogorusso.com/my_jekyll_3/2016/11/24/cards.html</link>
-        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/2016/11/24/cards.html</guid>
+        <link>http://hello.diogorusso.com/my_jekyll_3/category/2016/11/24/cards.html</link>
+        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/category/2016/11/24/cards.html</guid>
         
-        <category>cards</category>
+        <category>journal</category>
         
-        <category>style guide</category>
         
+        <category>category</category>
         
       </item>
     
       <item>
-        <title>STYLEGUIDE POSTS</title>
+        <title>HELLO</title>
         <description>&lt;h1 id=&quot;h1&quot;&gt;H1&lt;/h1&gt;
 &lt;h2 id=&quot;h2&quot;&gt;H2&lt;/h2&gt;
 &lt;h3 id=&quot;h3&quot;&gt;H3&lt;/h3&gt;
@@ -894,18 +894,18 @@ This line is part of the same quote.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 19 Nov 2016 00:00:00 -0800</pubDate>
-        <link>http://hello.diogorusso.com/my_jekyll_3/2016/11/19/styleguide.html</link>
-        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/2016/11/19/styleguide.html</guid>
+        <link>http://hello.diogorusso.com/my_jekyll_3/category/2016/11/19/styleguide.html</link>
+        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/category/2016/11/19/styleguide.html</guid>
         
-        <category>jekyll</category>
+        <category>journal</category>
         
-        <category>code</category>
         
+        <category>category</category>
         
       </item>
     
       <item>
-        <title>steps to build my EMBED POSTS styleguide</title>
+        <title>HELLO</title>
         <description>&lt;iframe src=&quot;https://player.vimeo.com/video/133267312&quot; width=&quot;720&quot; height=&quot;405&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6R_yB6pAAX8?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -917,15 +917,13 @@ This line is part of the same quote.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 19 Nov 2016 00:00:00 -0800</pubDate>
-        <link>http://hello.diogorusso.com/my_jekyll_3/2016/11/19/embed.html</link>
-        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/2016/11/19/embed.html</guid>
+        <link>http://hello.diogorusso.com/my_jekyll_3/category/2016/11/19/embed.html</link>
+        <guid isPermaLink="true">http://hello.diogorusso.com/my_jekyll_3/category/2016/11/19/embed.html</guid>
         
-        <category>jekyll</category>
+        <category>journal</category>
         
-        <category>gulp</category>
         
-        <category>foundation</category>
-        
+        <category>category</category>
         
       </item>
     

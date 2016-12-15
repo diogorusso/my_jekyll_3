@@ -1,17 +1,16 @@
 
 /* HERO POSTS */
 
-
-{% assign featured-cover-path = "/work" %}
 {% assign featured-cover-max-size =  795 %}
 {% assign breakpoints = "795|480" | split: "|" %}
 
-
-.post-hero-slide-bg{
-	background: url({{ site.baseurl }}{{ post.cover }}) no-repeat center center; 
-	opacity:1; 
-	-webkit-background-size: cover; 
-	-moz-background-size: cover;
-	-o-background-size: cover; 
-	background-size: cover;
-}
+{% for post in site.posts %}
+	.post-hero-post-slide-bg{
+		background: url({{ site.baseurl }}{{ post.cover }}) no-repeat center center; 
+		opacity:1; 
+		-webkit-background-size: cover; 
+		-moz-background-size: cover;
+		-o-background-size: cover; 
+		background-size: cover;
+	}
+{% endfor %}

@@ -1,20 +1,7 @@
 ---
-layout: post
-post-id: 20160407_posts.003.jpeg
-title: "Site Configuration"
-cover:  "20160407_posts.132.jpg"
-description: "Configuration DOCS for config.yml"
-
-tags:
-- config
-- style guide
-
-
-
-auto-scroll: false
-txt-color: dark
-
-grid-columns: 2
+title: "HELLO"
+description: "Responsive cards Study"
+category: "category"
 
 ---
 
