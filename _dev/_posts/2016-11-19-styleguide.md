@@ -1,21 +1,7 @@
 ---
-layout: post
-hero: true
-hero-bg-color: "#000"
-post-id: 20160407_posts.001.jpeg
-title: "STYLEGUIDE POSTS"
-cover:  "20160407_posts.132.jpg"
-description: "MARKDOWN BLOG STYLE GUIDE"
-
-tags:
-- jekyll
-- code
-
-
-auto-scroll: false
-txt-color: dark
-
-grid-columns: 2
+title: "HELLO"
+description: "Responsive cards Study"
+category: "category"
 
 ---
 
