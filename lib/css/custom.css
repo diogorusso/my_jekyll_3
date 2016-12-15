@@ -7,7 +7,7 @@
 
 
 .Hello{
-		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1482/hero-slide-bg-01.jpg');
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -17,7 +17,7 @@
 
 @media only screen and (max-width: 480px) {
 	.Hello{
-		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1042/hero-slide-bg-01.jpg');
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -27,7 +27,7 @@
 }
 @media only screen and (min-width: 480px) and (max-width: 791px) {
 	.Hello{
-		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1042/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -36,7 +36,7 @@
 }
 @media only screen and (min-width: 791px) and (max-width: 1042px) {
 	.Hello{
-		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1482/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -45,7 +45,7 @@
 }
 @media only screen and (min-width: 1042px) and (max-width: 1482px) {
 	.Hello{
-		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1482/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -54,7 +54,7 @@
 }
 @media only screen and (min-width: 1482px) and (max-width: 1920px) {
 	.Hello{
-		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1920/hero-slide-bg-01.jpg');
 		 -webkit-background-size: cover;
 		 -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -63,7 +63,7 @@
 }
 @media only screen and (min-width: 1920px) {
 	.Hello{
-		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1920/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -73,7 +73,7 @@
 
 
 .Hello 2{
-		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1482/hero-slide-bg-01.jpg');
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -83,7 +83,7 @@
 
 @media only screen and (max-width: 480px) {
 	.Hello 2{
-		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1042/hero-slide-bg-01.jpg');
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -93,7 +93,7 @@
 }
 @media only screen and (min-width: 480px) and (max-width: 791px) {
 	.Hello 2{
-		background:url('/lib/img/1042/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1042/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -102,7 +102,7 @@
 }
 @media only screen and (min-width: 791px) and (max-width: 1042px) {
 	.Hello 2{
-		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1482/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -111,7 +111,7 @@
 }
 @media only screen and (min-width: 1042px) and (max-width: 1482px) {
 	.Hello 2{
-		background:url('/lib/img/1482/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1482/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -120,7 +120,7 @@
 }
 @media only screen and (min-width: 1482px) and (max-width: 1920px) {
 	.Hello 2{
-		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1920/hero-slide-bg-01.jpg');
 		 -webkit-background-size: cover;
 		 -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -129,7 +129,7 @@
 }
 @media only screen and (min-width: 1920px) {
 	.Hello 2{
-		background:url('/lib/img/1920/hero-slide-bg-01.jpg');
+		background:url('/my_jekyll_3/lib/img/1920/hero-slide-bg-01.jpg');
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
