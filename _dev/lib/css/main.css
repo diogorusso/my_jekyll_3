@@ -10236,6 +10236,13 @@ input[type="submit"] {
   .hero-txt .txt-rotate {
     font-size: 2.8rem; }
 
+.post-hero-post-slide-bg {
+  opacity: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .accordion .accordion-navigation > .content, .accordion dd > .content {
   padding: 0; }
 
