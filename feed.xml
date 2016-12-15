@@ -5,8 +5,8 @@
     <description>I'm a DESIGNER and STORYTELLER I help businesses, individuals and communities craft meaningful EXPERIENCES and PRODUCTS</description>
     <link>http://hello.diogorusso.com/my_jekyll_3/</link>
     <atom:link href="http://hello.diogorusso.com/my_jekyll_3/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Dec 2016 20:38:04 -0800</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2016 20:38:04 -0800</lastBuildDate>
+    <pubDate>Wed, 14 Dec 2016 20:43:22 -0800</pubDate>
+    <lastBuildDate>Wed, 14 Dec 2016 20:43:22 -0800</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -64,7 +64,7 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/12/07/default.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/12/07/default.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -94,7 +94,7 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/site-config.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/24/site-config.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -124,7 +124,7 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/cards.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/24/cards.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -154,7 +154,7 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/styleguide.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/19/styleguide.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -184,7 +184,7 @@
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/embed.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/19/embed.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -547,7 +547,7 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/12/07/default.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/12/07/default.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -577,7 +577,7 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/site-config.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/24/site-config.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -607,7 +607,7 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/24/cards.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/24/cards.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -637,7 +637,7 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/styleguide.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/19/styleguide.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
@@ -667,7 +667,7 @@ paginate_path: “/work/page:num”&lt;/p&gt;
   
     &lt;li itemscope=&quot;&quot; itemtype=&quot;http://schema.org/CreativeWork&quot; typeof=&quot;doap:Project&quot;&gt;
       &lt;div class=&quot;card&quot;&gt;
-    &lt;a href=&quot;/my_jekyll_3//category/2016/11/19/embed.html&quot;&gt;
+    &lt;a href=&quot;/my_jekyll_3/category/2016/11/19/embed.html&quot;&gt;
         &lt;div class=&quot;card-media&quot;&gt;
         &lt;picture&gt;
     &lt;img sizes=&quot;(max-width: 1826px)100vw, 1826px&quot; srcset=&quot; 
