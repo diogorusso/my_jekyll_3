@@ -11,7 +11,7 @@ txt-color: dark
 
 <div class="small-12 columns">   
     <ul class="grid small-block-grid-1 medium-block-grid-2 large-block-grid-2">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
         <li itemscope itemtype="http://schema.org/CreativeWork" typeof="doap:Project">
             {% include cards/card-posts.html %}
         </li>
@@ -19,3 +19,17 @@ txt-color: dark
     </ul>
 </div>
 
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

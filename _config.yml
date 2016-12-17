@@ -20,7 +20,7 @@ see-also:
   - 'http://work.diogorusso.com'
   - 'http://www.lucaszappa.com.br'
   - 'http://www.estudioberinjela.com.br'
-paginate: 12
+paginate: 4
 paginate_home: /work
 paginate_link: /work/page
 paginate_path: '/work/page:num'
@@ -83,7 +83,7 @@ hero-bgs:
 menu-links_multipage:
   - title: Work
     url: /
-  - title: Journal
+  - title: Ideas
     url: /work
   - title: Newsletter
     url: /sign-up.html
