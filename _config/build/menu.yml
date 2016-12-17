@@ -2,7 +2,7 @@
 menu-links_multipage:
   - title: "Work"
     url: "/"
-  - title: "Journal"
+  - title: "Ideas"
     url: "/work"
   - title: "Newsletter"
     url: "/sign-up.html"
