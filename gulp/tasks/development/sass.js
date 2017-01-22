@@ -3,6 +3,7 @@ var sass = require('gulp-sass');
 var clean   = require('gulp-clean');
 var rename = require("gulp-rename");
 var runSequence = require('run-sequence');
+var config = require('../../config').sass;
 
 gulp.task('sass', function() {
   runSequence('sass-clean',
@@ -10,20 +11,14 @@ gulp.task('sass', function() {
     );
 });
 
-
 gulp.task('sass-clean', function () {
-  return gulp.src('./_dev/lib/css/main.css', {read: true})
+  return gulp.src(config.cssClean, {read: true})
     .pipe(clean());
 });
 
-
-
 gulp.task('sass-build', function() {
-    gulp.src([
-    		
-    		'./_dev/_assets/_sass/_themes/jellyfish-theme.scss'
-    	])
+    gulp.src(config.sassSrc)
         .pipe(sass({outputStyle: 'uncompressed'}).on('error', sass.logError))
-        .pipe(rename("main.css"))
-        .pipe(gulp.dest('./_dev/lib/css/'))
+        .pipe(rename(config.cssDist))
+        .pipe(gulp.dest(config.pathDist))
 });

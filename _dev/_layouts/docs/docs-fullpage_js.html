@@ -1,0 +1,16 @@
+---
+layout: docs
+type: page
+---
+
+
+    {{ content }}
+  
+
+  <div class="section auto-height">
+    {% for doc in site.docs %}
+              {% if doc.category == "fullpage" %}
+                <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+  </div>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include base/head.html %} 
+  <body>
+
+
+    {% include base/preloader.html %}
+    <a id="top"></a>
+  
+    {% include base/nav_top-right-docs.html %}
+    <div class="content-wrap">
+      {{ content }}
+    </div>
+    <script type="text/javascript" src="{{ site.baseurl }}/lib/js/script.js"></script>
+    
+    {% include scripts/js_init_fullpage.html %}
+
+  </body>
+</html>
+

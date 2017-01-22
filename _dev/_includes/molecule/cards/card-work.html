@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="card-media">
+        <a href="{{ project.url }}" target="blank" itemprop="url" property="doap:homepage">
+             {% include atom/img/img-work-cover.html %}
+        </a> 
+    </div>
+    <div class="card-container">
+        <div class="card-title" itemprop="name">{{ project.title }}</div>
+        <div class="card-description" itemprop="name">{{ project.fields }}</div>
+        <span class="hide" itemprop="author"> {{ site.author }} </span>
+    </div>
+</div>

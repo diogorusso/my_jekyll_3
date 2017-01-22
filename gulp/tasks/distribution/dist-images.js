@@ -1,18 +1,13 @@
 var gulp 	= require('gulp');
+var config = require('../../config').images;
 
 gulp.task('dist-images-copy', function() {
-  return gulp.src([
-  		'./_dev/lib/imgs/**/*.*',
-  		'./_dev/lib/fonts/**/*.*'
-  	])
-    .pipe(gulp.dest('./_dist/jekyll_dist/lib/imgs'));
+  return gulp.src(config.imgDistSrc)
+    .pipe(gulp.dest(config.imgDistDest));
 });
 
 gulp.task('dist-fonts-copy', function() {
-  return gulp.src([
-  		'./_dev/lib/imgs/**/*.*',
-  		'./_dev/lib/fonts/**/*.*'
-  	])
-    .pipe(gulp.dest('./_dist/jekyll_dist/lib/fonts'));
+  return gulp.src(config.imgDistSrc)
+    .pipe(gulp.dest(config.fontsDistDest));
 });
 

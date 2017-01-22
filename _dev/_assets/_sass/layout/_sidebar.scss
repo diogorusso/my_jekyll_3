@@ -1,0 +1,53 @@
+// Side Bar
+
+
+.main-container{
+    padding-top: 5rem;
+}
+
+@media #{$large-up} { 
+
+  .main-container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    //overflow-x: hidden;
+    width: 100%;
+    padding-left: 20rem;
+    padding-right: .5rem;
+    padding-top: 1rem;
+  }
+
+  .side-bar {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 100%;
+    position: fixed;
+    width: 20rem;
+    left: 0;
+    top: 0;
+    border-right: #eee solid 0.05rem;
+    padding: 6rem 1.5rem 0 1rem;
+    
+    ul {
+        list-style-type: none;
+    }
+    li{
+        margin-top:1.3rem;
+    }       
+  }
+}
+
+
+
+.side-nav li a:not(.button),
+.side-nav li a:not(.button):hover, 
+.side-nav li a:not(.button):focus{
+    color: $theme-dark-color;
+}
+
+.side-nav li.heading{
+    color: $theme-dark-color;
+}

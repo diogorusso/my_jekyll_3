@@ -1,0 +1,26 @@
+
+#Google analytics
+g-analytics: UA-59944728-3
+
+
+#Facebook config
+fb-app-id: "915671155245552"
+
+see-also:
+    - "http://work.diogorusso.com"
+    - "http://www.lucaszappa.com.br"
+    - "http://www.estudioberinjela.com.br"
+
+
+
+
+#Social Media
+
+social:
+  - name: "behance"
+    url: "https://www.behance.net/diogorusso"
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/diogorusso/en"
+  - name: "envelope-o"
+    url: "mailto:contato@estudioberinjela.com.br"
+

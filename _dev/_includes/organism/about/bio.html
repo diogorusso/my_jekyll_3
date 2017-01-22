@@ -1,0 +1,32 @@
+<div class="section fp-auto-height">
+	<div id="bio"> <!--hero link -->
+		<div class="row fluid large-collapse medium-collapse small-collapse" data-equalizer>
+			<div class="small-12 medium-12 large-12 columns" data-equalizer-watch>
+				<div class="row large-collapse medium-collapse small-collapse">
+
+
+					<div class="small-12 medium-7 large-4 columns">
+							{% include imgs/img-about-profile.html %}
+							<span class="show-for-medium-up">{% include imgs/img-about-card.html %}</span>
+					</div>
+						
+
+					<div class="small-12 medium-5 large-8 columns bio-txt bio-txt-bg" data-equalizer-watch>
+						<div class="small-12 medium-12 large-12 columns v-center" itemscope itemtype="http://schema.org/Person">
+							<p>{{ site.txt-bio }}<br><br> </p>
+							<p class="hide-for-medium-only">{{ site.txt-bio-2 }} <br><br></p>
+							<p>
+								<a href="{{ site.bio-btn-link }}" class="button btn-outline btn-round" target="blank" >
+									{{ site.bio-btn-txt }} | <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+							</p><!-- actions bio -->
+						</div> 
+					</div>
+				</div>			 
+			</div><!--bio -->
+
+			
+		</div> <!--skill-row fluid -->
+	</div><!-- bio -->
+</div><!--section-->
+

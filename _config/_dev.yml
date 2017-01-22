@@ -1,7 +1,7 @@
 
 #BASE
 
-baseurl: "http://localhost:1818/" # only for github, gulp baseurl set in config_dev.yml
+baseurl: "http://localhost:1818" # only for github, gulp baseurl set in config_dev.yml
 url: "" # the base hostname & protocol for your site
 
 # Build settings - PRODUCTION

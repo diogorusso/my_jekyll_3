@@ -1,11 +1,11 @@
 var gulp   = require('gulp');
 var sketch = require('gulp-sketch');
-var imgSrc = './_dev/_assets/_img/';
+var config = require('../../config').sketch;
 
 gulp.task('sketch', function(){
-  return gulp.src('./_design/Layout_Foundation_5.sketch')
+  return gulp.src(config.sketchSrc)
     .pipe(sketch({
       export: 'slices',
     }))
-    .pipe(gulp.dest(imgSrc));
+    .pipe(gulp.dest(config.sketchImgDest));
 });

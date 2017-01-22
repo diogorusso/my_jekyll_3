@@ -2,6 +2,7 @@ var gulp 	= require('gulp');
 var shell   = require('gulp-shell');
 var clean   = require('gulp-clean');
 var runSequence = require('run-sequence');
+var config = require('../../config').jekyll;
 
 gulp.task('dist-jekyll', function() {
   runSequence('dist-jekyll-clean',
@@ -12,20 +13,16 @@ gulp.task('dist-jekyll', function() {
 
 
 gulp.task('dist-jekyll-clean', function () {
-  return gulp.src('./_dist/jekyll_dist/', {read: true})
+  return gulp.src(config.jekyllpathDist, {read: true})
     .pipe(clean());
 });
 
 gulp.task('dist-jekyll-copy', function() {
-  return gulp.src([
-  		'!./_dev/_config_dev.yml',
-  		'!./_dev/_assets/**/*.*',
-  		'!./_dev/_site/**/*.*',
-      '!./_dev/_lib/**/*.*',
-  		'./_dev/**/*.*',
-  	])
-    .pipe(gulp.dest('./_dist/jekyll_dist'));
+  return gulp.src(
+  		config.jekyllSrcDist
+  	)
+    .pipe(gulp.dest(config.jekyllpathDist));
 });
 
 
-gulp.task('dist-jekyll-build',shell.task(['jekyll build --config _dist/jekyll_dist/_config.yml --source ./_dist/jekyll_dist/ --destination ./_dist/jekyll_dist/_site']));
+gulp.task('dist-jekyll-build',shell.task(config.jekyllBuildDist));

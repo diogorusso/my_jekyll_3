@@ -1,0 +1,27 @@
+{% if page.auto-scroll == true %}
+<div class="anim-menu undocked">
+{% else %}
+<div class="anim-menu">
+{% endif %}
+  <nav class="top-bar large" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="logo">
+        <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ site.img-path }}/{{ site.logo }}"></a>
+      </li>
+      <li class="toggle-topbar">
+        <a class="menu-button" id="menuButton">
+          Menu <i class="fa fa-bars"></i>
+        </a>
+      </li>
+    </ul>
+    <section class="top-bar-section">
+      {% if site.site-structure == "multipage" %}
+        {% include atom/nav/nav_ul-multipage.html %}
+      {% else %}
+         {% include atom/nav/nav_ul-onepage.html %}
+      {% endif %}
+    </section>
+  </nav>
+</div>
+
+

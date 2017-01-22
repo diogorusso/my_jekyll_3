@@ -1,6 +1,6 @@
 
 # Base
-baseurl: "/my_jekyll_3" # only for github, gulp baseurl set in config_dev.yml
+baseurl: "/diogo_russo" # only for github, gulp baseurl set in config_dev.yml
 url: "http://hello.diogorusso.com" # the base hostname & protocol for your site
 
 

@@ -2,13 +2,13 @@
 layout: script
 ---
 
-{% include scripts/css_hero.css %}
+{% include atom/script/css_hero.css %}
 
-{% include scripts/css_hero-post.css %}
+{% include atom/script/css_hero-post.css %}
 
-{% include scripts/css_process.css %}
+{% include atom/script/css_process.css %}
 
-{% include scripts/css_bio.css %}
+{% include atom/script/css_bio.css %}
 
 
 

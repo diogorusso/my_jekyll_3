@@ -1,0 +1,13 @@
+<div class="card">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="card-media">
+        {% include atom/img/img-post-cover.html %}
+        </div>
+        <div class="card-container text-center">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <div class="card-title" itemprop="name">{{ post.title }}</div>
+                <div class="card-description" itemprop="name">{{ post.description}}</div>
+            </a> 
+        </div>
+    </a>
+</div>

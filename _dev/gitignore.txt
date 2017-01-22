@@ -1,4 +1,0 @@
-_design
-_site
-_dev
-node_modules

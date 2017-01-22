@@ -1,0 +1,21 @@
+ defaults:
+    - scope:
+        path: "" # an empty string here means all files in the project
+        type: "posts"
+      values:
+        layout: "post"
+        auto-scroll: false
+        txt-color: dark
+        hero: true
+        hero-bg-color: "#000"
+        title: "TITLE DEFAULT"
+        cover: "/lib/content/cover/post-default-cover.jpg"
+        description: "DESCRIPTION DEFAULT"
+        tags:
+          - journal
+
+    - scope:
+        path: ""
+        type: docs
+      values:
+        layout: docs-foundation

@@ -1,0 +1,15 @@
+<picture>
+    <img
+        sizes="(max-width: {{ site.img-bio-max-size }}px)100vw, {{ site.img-bio-max-size }}px"
+        
+        srcset=" 
+            {% for break in site.img-bio-breakpoints %}
+                {{ site.baseurl }}{{ site.img-path }}/{{ break }}/{{ site.img-card }} {{ break }}w,
+            {% endfor %} 
+        "
+        
+        src="{{ site.baseurl }}/{{ site.img-path }}/{{ site.img-max-width }}/{{ site.img-card }}"
+        alt="{{ site.author }} card"
+        style="width:100%;"
+    >
+</picture><!-- card pic -->

@@ -1,0 +1,109 @@
+//BODY - bg , font 
+
+$body-bg: $theme-light-color;
+$body-font-color: $theme-dark-color ;
+
+//LINK - color, border
+
+$link-color: $theme-dark-color;
+$link-color-hover: $theme-dark-color; 
+
+// BLOCKQUOTE
+
+$blockquote-color: $theme-dark-color;
+
+
+// FOOTER - bg , txt, button txt, 
+
+
+$footer-bg: $theme-light-color;
+$footer-txt: $theme-light-color;
+$footer-border-color: #eee;
+
+
+
+
+// BACK TO TOP BTN
+
+$back-top-btn: $theme-light-color;
+
+
+// PRELOADER 
+
+$preloader-overlay: $theme-light-color;
+$preloader-spinner: $theme-dark-color;
+
+
+
+// TOP MENU 
+
+$top-bar-bg: $transparent;
+$top-bar-bg-undocked: $theme-dark-color;
+$top-bar-txt: $theme-dark-color;
+$top-bar-txt-undocked: $theme-light-color;
+$top-bar-expanded-bg: $transparent;
+$top-bar-expanded-txt: $theme-dark-color;
+
+
+// BUTONS
+
+
+$btn-bg: $theme-dark-color;
+$btn-txt: $theme-light-color;
+
+
+$btn-bg-light: $theme-light-color;
+$btn-txt-light: $theme-dark-color;
+
+$btn-hover-bg: $theme-light-color;
+$btn-hover-txt: $theme-dark-color;
+
+$btn-hover-bg-ligtht: $theme-dark-color;
+$btn-hover-txt-light: $theme-light-color;
+
+
+$btn-outline-light-bg: $transparent;
+$btn-outline-light-hover-bg: alpha($theme-dark-color) * 30%;
+$btn-outline-light-txt: $theme-light-color;
+
+$btn-outline-dark-bg: $transparent ;
+$btn-outline-dark-hover-bg: alpha($theme-dark-color) * 30%;
+$btn-outline-dark-txt: $theme-dark-color;
+
+// burger menu
+
+$burger-color-light: $theme-light-color;
+$burger-color-dark: $theme-light-color;
+
+
+// COLORS - HERO
+
+$hero-txt: $theme-light-color;
+
+
+// COLORS - PROCESS
+
+$process-bar-txt: $theme-dark-color;
+$process-bar-box: $theme-dark-color;
+
+
+
+$process-box-bg-1: $theme-dark-color;
+$process-box-bg-2: $theme-dark-color;
+$process-box-bg-3: $theme-dark-color;
+$process-box-bg-4: $theme-dark-color;
+$process-box-bg-5: $theme-dark-color;
+$process-box-bg-6: $theme-dark-color;
+
+
+// COLORS - WORK PORTFOLIO
+
+$work-filter-txt: $theme-dark-color;
+$work-card-h4-txt: $theme-dark-color;
+$work-card-p-txt: $theme-dark-color;   
+
+
+
+
+
+

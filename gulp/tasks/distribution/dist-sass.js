@@ -1,7 +1,9 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var clean   = require('gulp-clean');
 var rename = require("gulp-rename");
 var runSequence = require('run-sequence');
+var config = require('../../config').sass;
 
 gulp.task('dist-sass', function() {
   runSequence('sass-clean',
@@ -10,11 +12,8 @@ gulp.task('dist-sass', function() {
 });
 
 gulp.task('dist-sass-build', function() {
-    gulp.src([
-    		
-    		'./_dev/_assets/_sass/_themes/jellyfish-theme.scss'
-    	])
+     gulp.src(config.sassSrc)
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(rename("main.css"))
-        .pipe(gulp.dest('./_dist/jekyll_dist/lib/css/'))
+        .pipe(rename(config.cssDist))
+        .pipe(gulp.dest(config.pathDist))
 });

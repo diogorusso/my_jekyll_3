@@ -27,30 +27,4 @@ gulp.task('deploy', function() {
 });
 
 
-gulp.task('deploy-gh-pages', function() {
-  runSequence(
-              'dist-jekyll-clean',
-              'dist-yaml-gh-pages',
-              'dist-scripts',
-              'dist-images-copy',
-              'dist-sass',
-              'dist-fonts-copy',
-              'dist-jekyll-copy',
-              'dist-jekyll-build',
-              'gh-pages'
-    );
-});
 
-gulp.task('deploy-html', function() {
-  runSequence(
-              'dist-jekyll-clean',
-              'dist-yaml-html',
-              'dist-scripts',
-              'dist-images-copy',
-              'dist-sass',
-              'dist-fonts-copy',
-              'dist-jekyll-copy',
-              'dist-jekyll-build',
-              'html-deploy'
-    );
-});

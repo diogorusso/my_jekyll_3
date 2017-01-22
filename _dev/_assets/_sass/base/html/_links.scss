@@ -1,0 +1,9 @@
+a {
+    color: $link-color;
+   // border-bottom: 0.1rem solid;
+}
+
+a:hover, a:focus {
+    color: $link-color-hover;
+	//border-bottom: 0.25rem solid;
+}

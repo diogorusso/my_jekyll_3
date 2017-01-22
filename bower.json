@@ -30,5 +30,8 @@
     "isotope": "^2.2.2",
     "imagesloaded": "^4.1.0",
     "font-awesome": "fontawesome#^4.6.3"
+  },
+  "dependencies": {
+    "aos": "^2.1.1"
   }
 }

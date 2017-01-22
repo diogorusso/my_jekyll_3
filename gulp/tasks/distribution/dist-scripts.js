@@ -1,64 +1,52 @@
 var gulp 	= require('gulp');
 var concat = require('gulp-concat');
+var clean   = require('gulp-clean');
 var uglify = require('gulp-uglify');
 var runSequence = require('run-sequence');
+var config = require('../../config').script;
 
 gulp.task('dist-scripts', function() {
-  runSequence('scripts-clean',
+  runSequence('dist-scripts-clean',
               'dist-scripts-head',
-              'dist-scripts-footer'
+              'dist-scripts-vendor',
+              'dist-scripts-custom' 
     );
 });
 
+gulp.task('dist-scripts-clean', function () {
+  return gulp.src(config.scriptClean, {read: true})
+    .pipe(clean());
+});
 
 // ######### SCRIPTS HEAD ###############
 
 gulp.task('dist-scripts-head', function() {
-    return gulp.src([
-
-        // vendors files 
-        
-        './_dev/_assets/vendors/picturefill-master/dist/picturefill.js'
-        ])
-    .pipe(concat('head.js'))
+    return gulp.src(config.headSrc)
+    .pipe(concat(config.scriptHeadDist))
     .pipe(uglify())
-    .pipe(gulp.dest('./_dev/lib/js/'));
+    .pipe(gulp.dest(config.pathDist));
 
 });
 
 
 // ######### SCRIPTS FOOTER ###############
  
-gulp.task('dist-scripts-footer', function() {
-  	return gulp.src([
-        
-        // bower components
-  			
-        './_dev/_assets/bower_components/foundation/js/vendor/jquery.js' ,
-  			'./_dev/_assets/bower_components/foundation/js/vendor/fastclick.min.js' ,
-  			'./_dev/_assets/bower_components/foundation/js/foundation.min.js' ,
-        './_dev/_assets/bower_components/isotope/dist/isotope.pkgd.min.js',
-        './_dev/_assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js',
-  			'./_dev/_assets/bower_components/jquery.easing/js/jquery.easing.min.js' ,
-        './_dev/_assets/bower_components/fullpage.js/vendors/jquery.slimscroll.min.js' ,
-        './_dev/_assets/bower_components/fullpage.js/dist/jquery.fullpage.min.js' ,
-        
-        //vendors files
-        
-        './_dev/_assets/vendors/FitVids.js-master/jquery.fitvids.js' ,
-        './_dev/_assets/vendors/swipebox-master/src/js/jquery.swipebox.min.js',
-        
-        //my scripts
-        
-        './_dev/_assets/_scripts/**/*.js'
-  			
-        ])
-    .pipe(concat('script.js'))
+gulp.task('dist-scripts-vendor', function() {
+  	return gulp.src(config.vendorSrc)
+    .pipe(concat(config.scriptVendorDist))
     .pipe(uglify())
-    .pipe(gulp.dest('./_dist/jekyll_dist/lib/js/'));
+    .pipe(gulp.dest(config.pathDist));
 
 });
 
+
+gulp.task('dist-scripts-custom', function() {
+  	return gulp.src(config.scriptSrc)
+    .pipe(concat(config.scriptDist))
+    .pipe(uglify())
+    .pipe(gulp.dest(config.pathDist));
+
+});
 
 
 

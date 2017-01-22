@@ -1,0 +1,15 @@
+<picture>
+    <img
+        sizes="(max-width: {{ site.img-bio-max-size }}px)100vw, {{ site.img-bio-max-size }}px"
+        
+        srcset=" 
+            {% for break in site.img-bio-breakpoints %}
+                {{ site.baseurl }}{{ site.img-path }}/{{ break }}/{{ site.img-profile }} {{ break }}w,
+            {% endfor %} 
+        "
+        
+        src="{{ site.baseurl }}/{{ site.img-path }}/{{ site.img-max-width }}/{{ site.img-profile }}"
+        alt="{{ site.author }} profile"
+        style="width:100%;"
+    >
+</picture><!-- profile pic -->

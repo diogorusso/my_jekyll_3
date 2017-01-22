@@ -1,0 +1,119 @@
+ //----------- theme config ----------//
+
+$theme-font-serif:"museo-slab",serif; 
+$theme-font-sans-serif:"proxima-nova-soft",sans-serif; 
+$theme-font-size: 18px;
+
+$theme-dark-color: #000;
+$theme-light-color: #fff;
+$transparent: transparent;
+
+/* Mixins
+
+@mixin commonTraits {
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+header {
+    color: #274D87;
+    @include commonTraits;
+}
+*/
+
+
+// Mixins with Arguments
+
+/* @mixin customBorder ($width, $color, $style) {
+    border: {
+        width: $width;
+        color: $color;
+        style: $style;
+    }
+}*/
+
+
+@import
+
+     //----------- bower  ----------//
+
+	"../../bower_components/normalize-css/normalize",
+	"../../bower_components/foundation/scss/foundation",
+    "../../bower_components/aos/src/sass/aos",
+    "../../vendors/swipebox-master/scss/swipebox",
+    "../../bower_components/font-awesome/scss/font-awesome",
+    "../../bower_components/sass-burger/burger",
+    
+    //----------- vendors ----------//
+
+    "../vendor/fullpage",
+	"../vendor/animsition",
+    
+     //----------- mixins ----------//
+
+    // "../mixins/helpers",
+
+    //helpers
+    "../helper/helpers",
+    
+     //----------- base ----------//
+
+	//config
+    "../base/config/config-colors",
+    "../base/config/config-text",
+
+    //html
+    "../base/html/html",
+    "../base/html/body",
+    "../base/html/links",
+    "../base/html/text-global",
+    "../base/html/buttons",
+    "../base/html/forms",
+    "../base/html/labels",
+    "../base/html/burger",
+
+    //----------- layouts ----------//
+
+    "../layout/fullpage-js",
+    "../layout/sidebar",
+
+    
+     //----------- components ----------//
+
+    //loading
+    "../component/loading/preloader",
+    
+    //nav
+    "../component/nav/menu_top",
+    "../component/nav/footer",
+
+    //cards
+    "../component/card/card",
+
+
+    //grids
+    "../component/grid/grid",
+
+    //list
+    "../component/list/list",
+
+     //mast-head
+    "../component/mast-head/hero",
+
+    //content
+
+    "../component/content/bio",
+    "../component/content/process",
+    "../component/content/work",
+
+    //embed
+    "../component/embed/mailchimp",
+
+
+
+     //----------- docs ----------//
+
+    "../docs/docs"
+;
+
